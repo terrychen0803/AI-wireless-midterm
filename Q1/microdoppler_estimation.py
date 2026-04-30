@@ -305,6 +305,12 @@ def main() -> None:
         "Hou, Wang & Lin — IEEE Wireless Comm. Letters 2021",
         color="#c9d1d9", fontsize=11, y=0.97
     )
+    print("\nQ1 Estimation Setting")
+    print("-" * 62)
+    print(f"Carrier frequency fc = {p['fc']/1e9:.1f} GHz")
+    print(f"Sampling frequency fs = {p['fs']/1e3:.1f} kSPS")
+    print(f"Maximum micro-Doppler = {max_microdoppler(p):.3f} Hz")
+    print(f"Theoretical fs_min = {2 * max_microdoppler(p) / 1e3:.3f} kSPS")
 
     gs = gridspec.GridSpec(2, 2, figure=fig, hspace=0.50, wspace=0.35,
                            left=0.08, right=0.96, top=0.91, bottom=0.07)
