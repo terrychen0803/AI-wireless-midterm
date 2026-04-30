@@ -1,0 +1,8 @@
+dataset,baseline_nmse_db
+cell_uniform,-15.955262184143066
+center_uniform,-12.226160049438477
+edge_uniform,-16.588550567626953
+left_half,-15.836485862731934
+right_half,-15.90778923034668
+two_hotspots,-14.09988784790039
+diagonal_corridor,-11.564927101135254
