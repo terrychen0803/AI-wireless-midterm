@@ -443,7 +443,7 @@ results/compare_dim128.png
 
 The figure compares baseline and mixed-training NMSE across all datasets.
 
-![CsiNet NMSE comparison](results/compare_dim128.png)
+![Cimage]([results/compare_dim128.png](https://github.com/terrychen0803/AI-wireless-midterm/blob/main/Q7/result/compare_dim128.png))
 
 In the figure:
 
