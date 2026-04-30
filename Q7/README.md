@@ -63,32 +63,6 @@ SciPy
 Matplotlib
 Pandas
 ```
-
-### Windows PowerShell setup
-
-```powershell
-cd C:\python_projects
-Expand-Archive -Path .\exercise_2_15_solution.zip -DestinationPath .\exercise_2_15_solution -Force
-cd .\exercise_2_15_solution
-
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-```
-
-If PowerShell blocks virtual environment activation, run:
-
-```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\.venv\Scripts\Activate.ps1
-```
-
-Verify TensorFlow:
-
-```powershell
-python -c "import tensorflow as tf; print(tf.__version__)"
-```
-
 ---
 
 ## 3. Program Explanation
