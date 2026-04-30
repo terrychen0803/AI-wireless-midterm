@@ -1,6 +1,6 @@
 # Exercise 2.15 — CsiNet Generalization across Channel Datasets
 
-The work is to see**How CsiNet performs CSI reconstruction generalization ability on different channel dataset**。And finished the following questions
+The work is to see **How CsiNet performs CSI reconstruction generalization ability on different channel dataset**. And finished the following questions
 
 (a) Please adopt the COST 2100 channel model to generate more than five different channel datasets referring
 to [14], such as changing the distribution of users.
